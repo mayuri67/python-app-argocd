@@ -11,8 +11,7 @@ spec:
   source:
     repoURL: https://github.com/mayuri67/python-app-argocd.git
     targetRevision: main
-    path: helm/python-app
-
+    path: .
     helm:
       releaseName: python-app
 
